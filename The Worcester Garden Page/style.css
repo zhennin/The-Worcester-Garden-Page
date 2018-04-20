@@ -1,13 +1,52 @@
 
-
-
-
-
 body {
 
-background-color: 
+    background: #F6DAFF;
+    font-family: 'Lobster', cursive;
 
 }
+
+h1 {
+
+text-align: center;
+
+font-size: 40px
+}
+
+h3 {
+
+text-align: center;
+
+}
+    
+    .firstpics {
+
+    width: 400px;
+
+    height: 400px;
+
+
+
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
