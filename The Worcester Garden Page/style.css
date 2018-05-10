@@ -2,7 +2,7 @@
 body {
 
     background: #F6DAFF;
-    font-family: 'Lobster', cursive;
+    font-family: font-family 'Open Sans', sans-serif;
 
 }
 
@@ -46,6 +46,7 @@ text-align: center;
     transform: translateX(-50%);
     padding-left: 50px;
     padding-right: 50px;
+    z-index: 1
     }
 
 .main {
@@ -53,6 +54,10 @@ position: relative;
 top: 200px;
 
 
+}
+
+.firstpics:hover {
+    width: 500px;
 }
     
 
