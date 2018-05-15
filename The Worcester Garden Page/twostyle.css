@@ -26,7 +26,7 @@ font-size: 40px
     
  display: inline-block;
 
- margin: 70px
+
 
     }
 
@@ -39,6 +39,46 @@ font-size: 40px
 
 
     }
+
+.imgwrapper {
+        width: 400px;
+        height: 200px;
+        transition: 1s all;
+        margin: 70px;
+      }
+
+.coverImg {
+
+    width: 200px;
+    height: 200px;
+    transition: 1s all;
+    opacity: .5;
+}
+
+.imgwrapper .imgtext {
+
+opacity: 0;
+position: relative;
+color: black;
+bottom: 200px;
+left: 50px;
+font-size: 20px;
+transition: 1s all;
+}
+
+.imgwrapper:hover {
+    background: brown;
+}
+
+.imgwrapper:hover .imgtext {
+
+    opacity: 1;
+}
+
+.imgwrapper:hover .coverImg {
+    opacity: .5;
+  }
+    
 
 
     
